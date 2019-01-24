@@ -6,10 +6,10 @@ import org.junit.Test;
 
 import io.restassured.http.ContentType;
 
-public class ConsultaCNPJ {
+public class ApiConsultaCNPJ {
 	
 	
-	@Test
+	@Test 
 	public void consultaCNPJ() {
 		String uriBase = "https://www.receitaws.com.br/v1/cnpj/04959158000144";
 		given().relaxedHTTPSValidation()
